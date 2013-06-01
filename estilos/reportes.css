@@ -1,0 +1,38 @@
+body {
+	font-size: 62.5%;
+	font-family: "Trebuchet MS", "Arial", "Helvetica", "Verdana", "sans-serif";
+}
+
+.mantenimiento{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #C1D5E0;
+        border: 1px solid #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+}
+.mantenimiento_tabla_reporte{
+	      width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+        
+        border: 1px solid #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+}
+
+.archivos_reporte{
+		width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #C1D5E0;
+        border: 1px solid #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 11px;
+}
+
+#fecha_desde, #fecha_hasta .cmb{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}

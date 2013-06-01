@@ -1,0 +1,93 @@
+/* 
+    Document   : mantenimiento
+    Created on : 17/04/2013, 03:59:55 PM
+    Author     : smora
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+        display: block;
+}
+
+header, section, footer, aside, nav, article, figure, figcaption, hgroup {
+        display: block;
+}
+
+.mantenimiento{
+        width: 800px;
+        height: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        background: #C1D5E0;
+        border: 1px solid #000000;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+}
+
+#seccion_ingreso_productos, #datos_domicilio, #datos_trabajo{
+	background: #C1D5E0;
+}
+
+#TituloMantenimiento{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	background: #3B7DA0;
+	color: #FFFFFF;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.etiqueta{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #3B7DA0;
+}
+
+.obliga{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #ff0000;
+	text-align: left;
+}
+
+.texto {
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        color: #3B7DA0;
+        font-weight:bold;
+}
+
+.cajatexto{
+        font-size: 10px;
+         font-family: Verdana, Arial, Helvetica, sans-serif;
+         width: 100%;
+}
+.mantenimiento_tabla{
+       height: 100%;
+       width: 100%;
+}
+
+.textarea{
+        resize: none;
+}
+
+button{
+
+    background-color: transparent;
+    border: 0 none;
+    color: #3B5998; 
+
+}
+
+input.error{
+    background-color:#FF9;
+    border:1px solid red;
+    }
+    
+input.enfoco{
+
+    border:1px solid green;
+    }    
